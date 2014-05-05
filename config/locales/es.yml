@@ -24,13 +24,26 @@ es:
 
   activerecord:
     models: 
-      product: "Product"
+      product: "Producto"
     attributes:
       product:
-        title: "Nombre del producto"
+        title: "Nombre"
+        description: "Descripción"
+        image_url: "URL de la imagen"
+        price: "Precio"
     errors:
       models:
         product:
           attributes:
             title:
-              blank: "El título no puede estar vacío"
+              blank: "no puede estar vacío"
+              too_short: "debe tener al menos 10 letras"
+              taken: "ya existe en la base de datos"
+            description:
+              blank: "debe contener información"
+            price:
+              not_a_number: "no es un número"
+              greater_than_or_equal_to: "tiene que ser un valor superior a 0.01"
+            image_url:
+              blank: "debe de tener una URL"
+

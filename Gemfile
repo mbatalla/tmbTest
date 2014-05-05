@@ -36,7 +36,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 # HAML for templates
+gem 'haml'
 gem 'haml-rails'
+gem 'haml-contrib'
+gem 'bootstrap-sass'
 
 # WEBSOCKETS controls
 gem 'faye-rails'

@@ -1,0 +1,9 @@
+Sun, 04 May 2014 02:11:23 -0400
+README.rdoc	Fri, 02 May 2014 00:44:15 -0400
+app/controllers/application_controller.rb	Fri, 02 May 2014 00:44:15 -0400
+app/controllers/products_controller.rb	Fri, 02 May 2014 01:33:37 -0400
+app/controllers/store_controller.rb	Sun, 04 May 2014 01:08:43 -0400
+app/helpers/application_helper.rb	Fri, 02 May 2014 00:44:15 -0400
+app/helpers/products_helper.rb	Fri, 02 May 2014 01:13:58 -0400
+app/helpers/store_helper.rb	Sun, 04 May 2014 00:53:40 -0400
+app/models/product.rb	Sun, 04 May 2014 00:57:00 -0400

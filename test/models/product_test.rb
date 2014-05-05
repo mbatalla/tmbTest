@@ -10,6 +10,7 @@ class ProductTest < ActiveSupport::TestCase
     assert product.errors[:image_url].any?
   end
 
+=begin
   test "product price must be positive" do
     product = Product.new(title:       "My Book Title",
                           description: "yyy",
@@ -27,6 +28,8 @@ class ProductTest < ActiveSupport::TestCase
     product.price = 1
     assert product.valid?
   end
+=end
+
 
   def new_product(image_url)
     Product.new(title:       "My Book Title",
